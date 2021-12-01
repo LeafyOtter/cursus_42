@@ -27,6 +27,8 @@ It's about recreating a basic ray-casting game engine, while using a pretty limi
 It is not actually quite functional. But because of change in cursus, i don't actually need to do it.
 I will finish it once my main cursus is done.  
 
+- Push_swap is an algorithmic project. With two stacks, and a limited set of instruction, sort the list of integers given as input with the less instruction possible.
+
 ## Current projects
 
 - Minishell, is a group project consisting of creating our own mini shell.
