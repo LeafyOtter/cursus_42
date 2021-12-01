@@ -1,0 +1,16 @@
+NO ./cub3d_spaceship/wall_1.xpm
+SO ./cub3d_spaceship/wall_2.xpm
+WE ./cub3d_spaceship/wall_3.xpm
+EA ./cub3d_spaceship/wall_4.xpm
+F 220, 128, 200
+C 225, 30, 0
+111111111
+1N0000001
+100000001
+100000001
+111111101
+      101
+      101
+      101
+      101
+      111
