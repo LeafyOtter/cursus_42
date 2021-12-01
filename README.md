@@ -27,6 +27,14 @@ It's about recreating a basic ray-casting game engine, while using a pretty limi
 It is not actually quite functional. But because of change in cursus, i don't actually need to do it.
 I will finish it once my main cursus is done.  
 
+## Current projects
+
+- Minishell, is a group project consisting of creating our own mini shell.
+
+- Minitalk, is a project about unix signal. It is finished, i just need to do some testing, and then get it corrected.
+
+- Philosophers, is a project about multi-threading. It is temporarly stopped, since i'm focusing on minishell.
+
 ## Notes
 
 I will update this repository regularly to add more project.
