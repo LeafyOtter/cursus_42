@@ -28,7 +28,7 @@ static int	get_line(char **buf, char **line, int index_nl)
 	*buf = ft_substr_free(*buf, index_nl + 1,
 			ft_strlen(*buf) - index_nl, TO_FREE);
 	if (!*line || !*buf)
-		return (-1);
+		return (GNL_ERROR);
 	return (1);
 }
 
@@ -45,12 +45,12 @@ int	get_next_line(int fd, char **line)
 	index_nl = is_newline(static_buffer[fd]);
 	while ((index_nl == -1) && (read_bytes))
 	{
-		index_nl = is_newline(static_buffer[fd]);
 		read_bytes = read(fd, read_buffer, BUFFER_SIZE);
 		read_buffer[read_bytes] = '\0';
 		static_buffer[fd] = ft_strjoin_free(static_buffer[fd], read_buffer);
 		if (!static_buffer[fd])
 			return (GNL_ERROR);
+		index_nl = is_newline(static_buffer[fd]);
 	}
 	return (get_line(&static_buffer[fd], line, index_nl));
 }
